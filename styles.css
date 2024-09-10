@@ -1,33 +1,33 @@
 body {
     background-color: #e1d4f7;
+    padding: 0;
 }
 header {
-    display: flex;
-    justify-content: center;
     height: 350px;
-    margin-top: -10px;
-}
-
-nav {
-    position: fixed;
-    top: 280px;
 
 }
-nav ul {
-    list-style-type: none;
+#logo-img {
+    margin: -10px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
     display: flex;
-    font-size: 2rem;
+    flex-direction: row;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
+    position: relative;
+    top: -25px;
+
+
 }
 
-nav li {
-
-}
-
-nav a {
+.topnav a {
+    text-align: center;
     text-decoration: none;
     color: #4b4b4e;
+    font-size: 2rem;
 }
 
 a:hover {
@@ -35,5 +35,9 @@ a:hover {
 }
 
 .content {
+    border: 2px black;
+    height: 500px;
+    width: 850px;
+    margin: 0 auto;
 
 }
