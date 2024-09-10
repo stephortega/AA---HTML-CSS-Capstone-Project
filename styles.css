@@ -1,0 +1,39 @@
+body {
+    background-color: #e1d4f7;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-top: -10px;
+}
+
+nav {
+    position: fixed;
+    top: 280px;
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    gap: 150px;
+}
+
+nav li {
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b4b4e;
+}
+
+a:hover {
+    color: white;
+}
+
+.content {
+
+}
